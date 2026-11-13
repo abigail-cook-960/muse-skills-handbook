@@ -1,0 +1,25 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*accounts*.json
+*accounts*.txt
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python / Node caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+out/
+e2e_out/

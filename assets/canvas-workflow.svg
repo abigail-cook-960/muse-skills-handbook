@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="wbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d1a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#34d399"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="400" rx="20" fill="url(#wbg)" stroke="#334155" stroke-width="2"/>
+  <text x="42" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#f8fafc">Infinite Canvas (/studio/) × Sticky-Session Director Pipeline</text>
+  <text x="42" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#94a3b8">Visual Node Wiring + Cross-Model Director Presets + Zero-Overlap Billing Protection</text>
+
+  <!-- Stage 1 -->
+  <rect x="40" y="104" width="245" height="248" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.8"/>
+  <text x="60" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#38bdf8">01 · ASSETS &amp; SCRIPT</text>
+  <rect x="58" y="152" width="209" height="44" rx="8" fill="#1e293b"/>
+  <text x="72" y="179" font-family="-apple-system, sans-serif" font-size="13.5" fill="#e2e8f0">muse-image (2K WebP Refs)</text>
+  <rect x="58" y="208" width="209" height="44" rx="8" fill="#1e293b"/>
+  <text x="72" y="235" font-family="-apple-system, sans-serif" font-size="13.5" fill="#e2e8f0">muse-chat Script Breakdown</text>
+  <rect x="58" y="264" width="209" height="66" rx="8" fill="#0ea5e9" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.4"/>
+  <text x="72" y="290" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#bae6fd">Top-Level JSON Media:</text>
+  <text x="72" y="312" font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#7dd3fc">images[] / first_image_url</text>
+
+  <!-- Connector 1->2 -->
+  <line x1="285" y1="228" x2="325" y2="228" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+
+  <!-- Stage 2 -->
+  <rect x="330" y="104" width="265" height="248" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-width="1.8"/>
+  <text x="350" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#a78bfa">02 · DIRECTOR WORKBENCH</text>
+  <rect x="348" y="152" width="229" height="44" rx="8" fill="#1e293b"/>
+  <text x="362" y="179" font-family="-apple-system, sans-serif" font-size="13.5" fill="#e2e8f0">16 skill_preset Multi-Stack</text>
+  <rect x="348" y="208" width="229" height="44" rx="8" fill="#1e293b"/>
+  <text x="362" y="235" font-family="-apple-system, sans-serif" font-size="13.5" fill="#e2e8f0">7 style_preset + 5 Combos</text>
+  <rect x="348" y="264" width="229" height="66" rx="8" fill="#8b5cf6" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.45"/>
+  <text x="362" y="290" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#ddd6fe">Cross-Model Prompt Fusion:</text>
+  <text x="362" y="312" font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#c4b5fd">Muse / Seedance / Veo / Kling</text>
+
+  <!-- Connector 2->3 -->
+  <line x1="595" y1="228" x2="635" y2="228" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrowCyan)"/>
+
+  <!-- Stage 3 -->
+  <rect x="640" y="104" width="255" height="248" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="1.8"/>
+  <text x="660" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#34d399">03 · STICKY SANDBOX</text>
+  <rect x="658" y="152" width="219" height="44" rx="8" fill="#1e293b"/>
+  <text x="672" y="179" font-family="ui-monospace, Menlo, monospace" font-size="12.5" fill="#e2e8f0">"conversation_id" Lock</text>
+  <rect x="658" y="208" width="219" height="44" rx="8" fill="#1e293b"/>
+  <text x="672" y="235" font-family="-apple-system, sans-serif" font-size="13.5" fill="#e2e8f0">Safety Offer Auto-Resume</text>
+  <rect x="658" y="264" width="219" height="66" rx="8" fill="#10b981" fill-opacity="0.14" stroke="#34d399" stroke-opacity="0.45"/>
+  <text x="672" y="290" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#a7f3d0">Billing Safety Iron Rule:</text>
+  <text x="672" y="312" font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#6ee7b7">failed → 100% Quota Refund</text>
+
+  <!-- Connector 3->4 -->
+  <line x1="895" y1="228" x2="935" y2="228" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrowEmerald)"/>
+
+  <!-- Stage 4 -->
+  <rect x="940" y="104" width="220" height="248" rx="14" fill="#0f172a" stroke="#fbbf24" stroke-width="1.8"/>
+  <text x="958" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#fbbf24">04 · CLEAN OUTPUT</text>
+  <rect x="956" y="152" width="188" height="44" rx="8" fill="#1e293b"/>
+  <text x="968" y="179" font-family="-apple-system, sans-serif" font-size="13" fill="#e2e8f0">10s~60s 720p 24fps MP4</text>
+  <rect x="956" y="208" width="188" height="44" rx="8" fill="#1e293b"/>
+  <text x="968" y="235" font-family="-apple-system, sans-serif" font-size="13" fill="#e2e8f0">Native Audio · No Watermark</text>
+  <rect x="956" y="264" width="188" height="66" rx="8" fill="#f59e0b" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.45"/>
+  <text x="968" y="290" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#fde68a">Optional Lip-Sync BGM:</text>
+  <text x="968" y="312" font-family="ui-monospace, Menlo, monospace" font-size="11.5" fill="#fcd34d">mute_voice: true</text>
+</svg>
